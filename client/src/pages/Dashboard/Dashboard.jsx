@@ -26,7 +26,7 @@ import WeightChart from "../../components/dashboard/WeightChart";
 import PaymentStatusChart from "../../components/dashboard/PaymentStatusChart";
 import TopCustomers from "../../components/dashboard/TopCustomers";
 
-import "./Dashboard.css";
+import "./dashboard.css";
 
 function Dashboard() {
     const [orders, setOrders] = useState([]);
