@@ -118,10 +118,13 @@ function AddOrderModal({
             return;
         }
 
-        if (Number(formData.rate) <= 0) {
-            setError("Rate must be greater than zero.");
-            return;
-        }
+        if (
+    formData.rate === "" ||
+    Number(formData.rate) < 0
+) {
+    setError("Please enter a valid rate of 0 or more.");
+    return;
+}
 
         try {
             setSaving(true);
