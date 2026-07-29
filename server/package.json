@@ -1,0 +1,22 @@
+{
+  "name": "order-dashboard-server",
+  "version": "1.0.0",
+  "description": "Shivalik Dragon Farm Dashboard Backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
